@@ -1,0 +1,22 @@
+{
+    "name": "Include Markup",
+    "author": [
+        "Jonas Neugebauer"
+    ],
+    "url": "https://github.com/jneug/mediawiki-includemarkup",
+    "description": "Allows the raw markup of a page to be shown on any other wiki page.",
+    "version": "0.1.0",
+    "manifest_version": 1,
+	"license-name": "MIT",
+	"type": "parserhook",
+    "AutoloadClasses": {
+        "IncludeMarkup": "IncludeMarkup.class.php"
+    },
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"IncludeMarkup::configureParser"
+		]
+	},
+	"config": {
+	}
+}
