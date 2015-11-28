@@ -15,7 +15,7 @@ wfLoadExtension( 'IncludeMarkup' );
 ## Usage
 Just wrap any page transclusion in `markup` Tags:
 
-```php
+```html
 <markup>{{Template:Foo}}</markup>
 
 <markup>{{:Pagename}}</markup>
